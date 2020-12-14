@@ -1,0 +1,29 @@
+know you are all busy, thanks for taking the time
+my inet connection flaky - if cut off, try again 
+
+share screen review agenda
+
+My story:
+- degree in comp engr late 70s, joined HP - still find comp w/ flashing lites & switches on front panel 
+- HP over 25 years, good place (dev, support, trng, mktg, mgmt) mostly Unix (deploy, vi old friend)
+- BUT serious drinking prob: in a blackout committed a stupid crime (only I hurt), but I spent over a decade in prison 
+- some good things, sober ever since, mucho gusto a cono les, 
+- 2 jobs pc access vb, bought 2 python books. 
+- got out in may, dojo kickstart  (if then else still the same)
+- holes: smartphone. social media: research to follow on Twitter
+- goals: upload images, video, send email, Selenium. 
+
+schedule: not working yet, flexible
+
+name that repo
+
+Brainstorm - try sharing a blank doc. 
+
+My solo project: proto version of Holiday Greetings. (show wireframe). +login / reg, Look not important.
+figure out basics of sending email, upload image / video
+glad I did - DJ ez send_mail: works, get auth error/bad creds.
+
+(Jesus have leads on image/vid? BTW nice website Elite Tennis Academy)
+
+
+

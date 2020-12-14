@@ -1,0 +1,10 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    color: darkred;
+    background-color: lightgreen;
+}
+
+img{
+    width: 300px;
+}

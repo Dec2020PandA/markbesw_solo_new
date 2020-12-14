@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success!</title>
+</head>
+<body>
+    <h1>{{request.session.user_name}} has logged in successfully</h1>
+    <br>
+    <h2>Testing file upload...</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="myfile">
+        <button type="submit">Upload</button>
+    </form>
+    <br>
+    <form action="/sendmail" method="POST">
+        {% csrf_token %}
+        <input type="submit" value="Send an email">
+    </form>
+</body>
+</html>

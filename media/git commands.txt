@@ -1,0 +1,39 @@
+Commonly used Git commands:
+
+create new local repo (do this in a term at the top of the project tree)
+------------------------------
+	git init			# create empty local repo, .git folder (where all is tracked)
+	git add .			# add all files under tree to the repo
+	git commit -m "initial commit"	# create 1st commit message (I got errors using single quote, so use double quotes)
+	git branch -M main		# name this branch "main" (by convention)
+
+create a new remote repo by going to GitHub site, click on Repositories, click New at top right
+-----------------------------
+
+Copy the local repo to GitHub
+-----------------------------
+	git remote add https://github.com/markbesw/<repo_name>.git		# shorthand: call the last param <github_url>
+	git push -u origin main	# copy to remote repo (-u = upstream, tells git that 'origin' is the default remote location)
+
+
+other
+-------
+	git status 			# see the state of your local repo
+
+	create a .gitignore file at the top of the tree to tell git which files to ignore. (sqlite.db3, __pychache__, secrets.py
+	do NOT put API keys or secret keys on GitHub. (API keys are tied to credit card #!)
+
+	To copy GitHub repo to a new local repo, use: git clone <github_url>
+
+	To remove a GitHub repo, use: git remote remove <github_url>
+
+	To handle Django SECRET_KEY: 
+	   - make a secrets.py file. 
+	   - copy SECRET_KEY = string from settings.py
+	   - put a line in secrets.py: secret = 'big_long_ugly_secret_key'
+	   - in settings.py, change line to: SECRET_KEY = secret
+	   - put import into settings.py: from . secrets import secret
+	   - make sure to not put secrets.py on GitHub (put a line in .gitignore)
+
+
+	
